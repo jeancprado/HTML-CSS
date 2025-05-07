@@ -1,0 +1,27 @@
+
+:root {
+    --color-primary:  rgb(224, 157, 208);
+    --devcode: rgb(243, 129, 129);
+}
+
+.botoes {
+    display: flex;
+} 
+
+.menu {
+    height: 100px;
+    width: 100;
+    background-color:var(--color-primary);
+}
+
+.btn-01{
+    height: 50px;
+    width: 100px;
+    background-color: var(--devcode);
+}
+
+.btn-02{
+    height: 50px;
+    width: 100px;
+    background-color: var(--color-primary);
+}

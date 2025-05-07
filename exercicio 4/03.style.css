@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Gidole", sans-serif;
+}
+
+body{
+    background: #EEAECA;
+    background: #8be88b;
+background: linear-gradient(180deg, rgba(139, 232, 139, 1) 0%, rgba(240, 199, 117, 1) 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 800px;
+    height: 100%;
+}
+
+.container-imagem{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-imagem p {
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+.imagem{
+    background-image: url("pivete.jpeg");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: solid  rgb(38, 82, 38) 2px;
+}
+
+.container-botao {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.botao {
+    width: 90%;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(117, 241, 117);
+    box-shadow: 1px 2px 0px 0px rgba(0,0,0,0.72);
+-webkit-box-shadow: 1px 2px 0px 0px rgba(0,0,0,0.72);
+-moz-box-shadow: 1px 2px 0px 0px rgba(0,0,0,0.72);
+}
+
+.botao i{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.botao p{
+    text-align: center;
+    flex: 1;
+    font-weight: 500;
+}
+
+.botao:hover{
+    background-color:  rgb(208, 236, 109);
+    cursor: pointer;
+    width: 99%;
+    transition: 0.4s;
+    border: rgb(208, 236, 109);
+}
