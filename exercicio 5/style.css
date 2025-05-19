@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+}
+
+table{
+    width: 600px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead{
+background-color:   rgb(235, 179, 121);
+}
+
+th{
+    padding: 10px;
+    color: cornflowerblue;
+}
+
+td{
+    padding: 5px;
+    color: cornflowerblue;
+}
+
+tbody tr:hover{
+    background-color: beige;
+    cursor: pointer;
+}

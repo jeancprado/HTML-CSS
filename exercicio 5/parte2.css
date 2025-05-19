@@ -1,0 +1,33 @@
+.primeira-div {
+    height: 50px;
+    background-color: cornflowerblue;
+    width: 300px;
+}
+
+.segunda-div {
+   height: 50px; 
+    background-color: pink;
+}
+
+.primeiro-link {
+    height: 50px; 
+
+    background-color: yellow;
+    width: 300px;
+}
+
+.terceira-div {
+    height: 50px; 
+
+    background-color: cornflowerblue;
+    width: 300px;
+    display: inline-block;
+}
+
+.quarta-div {
+    height: 50px;
+    background-color: coral;
+    width: 300px;
+    display: inline-block;
+
+}
